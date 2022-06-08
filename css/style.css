@@ -28,23 +28,42 @@ input.product_search {
 	color:#fff;
 }
 .header_right_area {
-    margin-top: 15px;
+    
 }
-.header_right_area ul{
-	list-style: none;
+
+.single_icon_area {
+    float: left;
+    padding: 11px 12px;
+    font-size: 21px;
+}
+.total-count{
 	position: absolute;
+    top: 1px;
+    right: 43px;
+    background: #f6931d;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 11px;
 }
-.header_right_area ul li{
-	position: relative;
-	float: left;
+.single_icon_area a{
+	color:#000;
 }
-.header_right_area ul li a{
-	
-		text-decoration: none;
-		padding: 14px 12px;
-		
-	
+.main_header{
+	background-color: #333;
+	color:#fff;
 }
+.main_navbar ul li a{
+color:#fff;
+text-transform: uppercase;
+font-size: 17px;
+}
+/***====header css======
+***/
+
 .popular_area{
 	padding: 30px 0px;
 }
@@ -61,8 +80,9 @@ input.product_search {
 }
 
 .footer_area{
-	padding:30px 0px;
-	background-color: #F1F1F1;
+	padding:60px 0px;
+	background-color: #222222;
+	color:#fff;
 }
 
 .single_footer ul{
@@ -70,7 +90,12 @@ input.product_search {
 }
 .single_footer ul li{}
 .single_footer ul li a{
-	color: #000;
+	color: #fff;
+}
+.bottom_footer{
+	padding: 25px 10px;
+	background-color: #000;
+	color:#fff;
 }
 /*--home page css end---*/
 
@@ -91,4 +116,313 @@ input.product_search {
 	padding: 8px;
 	width: 60px;
 	margin: 0 10px
+}
+/*=========================
+Start Shop News Letter css
+===========================*/
+.shop_newsletter{
+	background-color: #F5F5F5;
+	padding:70px 0px;
+}
+.innter_top{
+	text-align: center;
+}
+.newsLetter_text h4{
+	color: #333;
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+.newsLetter_text p{
+	color:#777;
+	font-size:14px;
+	font-weight:400;
+	margin-bottom:30px;
+}
+.news_letter_form{
+	position: relative;
+	display: block;
+}
+.news_letter_form input{
+	width: 480px;
+	height: 55px;
+	padding: 0px 30px;
+	font-weight: 400;
+	display: inline-block;
+	text-shadow: none;
+	box-shadow: none;
+	border: 1px solid #ececec;
+	border-radius: 30px 0 0 30px;
+}
+.news_letter_form button{
+border:none;
+}
+.subscribe_btn{
+	background-color: #F57224;
+    color: #fff;
+    margin-left: -6px;
+    padding: 15px 22px;
+    border-radius: 12px;
+}
+/*======================
+contact page css
+========================*/
+.contact_us_tittle{
+background-color: #007185;
+padding: 70px 0;
+color:#fff;
+}
+
+.contactUs_area{
+	padding:70px 0px;
+	background-color: #EFF0F5;
+}
+/*===========================
+single product page
+=============================*/
+.single_product_area{
+	background-color: #fff;
+}
+.product_image_group{
+	display: flex;
+	justify-content: space-between;
+}
+.small-img-col{
+	flex-basis: 24%;
+	cursor:pointer;
+}
+.star{
+	font-size: 18px;
+}
+.checked{
+	color:orange;
+}
+.quantity{
+	width:52px;
+}
+.single_product_category h6{
+	display: inline-block;
+    float: left;
+    margin-right: 7px;
+}
+.social_icon_fackbook{
+	color:#3b5998;
+	padding: 0px 8px;
+}
+.social_icon_twitter{
+	color:#55acee;
+	padding: 0px 8px;
+}
+.social_icon_linkdin{
+	color:#0077b5;
+	padding: 0px 8px;
+}
+.social_icon_instgram{
+	color:#3f729b;
+	padding: 0px 8px;
+}
+.social_icon_whatsup{
+	color:#43d854;
+	padding: 0px 8px;
+}
+
+
+.single_product_sidebar{
+	background-color: #FAFAFA;
+	padding: 40px 20px;
+}
+
+.sidebar_avarage_count{
+	font-size: 12px;
+}
+.long_description_area{
+	background-color: #FAFAFA;
+	padding: 20px 20px;
+}
+.product_long_description {
+    padding: 25px 30px;
+}
+/*==================================
+checkout form page css
+====================================*/
+.checkout_form_design input{
+	margin-bottom: 25px;
+}
+.checkout_poroduct_image{
+	display: inline-block;
+}
+.checkout_poroduct_image img{
+	width:50%;
+}
+.payment_cost_area h3{
+	text-transform: uppercase;
+}
+.checkout_amount{
+float:right;
+margin-right: 25px;
+}
+/*===================
+cart page
+=====================*/
+.custom_modal_design{
+	position:absolute;
+	right: 0;
+}
+/*=====================
+   payment method css
+======================*/
+.payment_method_area{
+	padding:60px 0;
+	background-color: #F0FFFF;
+}
+.payment_method{
+	background-color: #f1f1f1;
+    padding: 50px 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+.paymnent_image {
+	width:150px;
+}
+/*========================
+   Thank you page css
+========================*/
+.thakyou_area{
+	padding:60px 0;
+	background-color: #F0FFFF;
+}
+.thank_you{
+	background-color: #f1f1f1;
+    padding: 50px 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+.thank_you i{
+	color: #42C0A7;
+    font-size: 64px;
+    border: 1px solid #42C0A7;
+    padding: 13px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+}
+/*=======================
+about us page css
+========================*/
+.about_us_area{
+	padding: 50px 0px;
+}
+.about_us h2{
+	text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about_us p{
+	font-size: 22px;
+    margin-top: 20px
+}
+.position_area{
+	padding: 50px 0;
+}
+
+.our_position h2 {
+    text-transform: capitalize;
+    font-size: 33px;
+}
+.our_position p{
+	width: 80%;
+    font-size: 20px;
+    text-align: justify;
+}
+/*=========================
+product category page css
+==========================*/
+.left_sidebar_categry ul{
+   list-style: none;
+}
+.left_sidebar_categry ul li a{
+	text-decoration: none;
+	color:#757575;
+}
+.single_sidebar ul{
+	list-style: none;
+}
+.single_sidebar ul li a{
+	text-decoration: none;
+	color:#757575;
+}
+.single_sidebar input{
+	margin-right: 5px;
+}
+.category_price_rang input{
+	width:60px;
+}
+.category_price_rang i{
+	background-color: #F57224;
+    color: #fff;
+    padding: 9px;
+    margin-left: 11px;   
+}
+/*================
+   blog page css
+==================*/
+.blog_tittle_area{
+background-color: #007185;
+padding: 70px 0;
+color:#fff;
+}
+.blog_tittle_text h2{
+	font-size: 30px;
+	font-weight: 800;
+}
+.blog_tittle_text p{
+	font-size: 19px;
+}
+.main_blog_area{
+	padding: 70px 0;
+}
+.blog_left_tags ul{
+	list-style: none;
+}
+.blog_left_tags ul li{
+	list-style: none;
+    float: left;
+    margin: 4px 4px;
+}
+.blog_left_tags ul a{
+	text-decoration: none;
+    color: #000;
+    background-color: #f5f5f5;
+    padding: 3px 1px;
+}
+.blog_left_category ul{
+	list-style: none;
+}
+.blog_left_category ul li a{
+	text-decoration: none;
+}
+/*==========================
+customer info page css
+==========================*/
+.user_info_area{
+	background-color: #EFF0F4;
+}
+.sidebar_menu_area{
+	background-color: #fff;
+    padding: 20px 41px;
+    
+}
+.sidebar_link{
+	color:#000;
+}
+.user_sidebar_menu ul{
+	list-style: none;
+}
+.user_sidebar_menu ul li{
+	margin-bottom: 30px;
+}
+.user_sidebar_menu ul li a{
+	color:#000;
 }
